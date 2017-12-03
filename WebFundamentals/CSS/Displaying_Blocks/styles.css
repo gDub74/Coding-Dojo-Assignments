@@ -15,24 +15,19 @@
 
 #header {
     height: 100px;
-    margin-left: 80px;
-    
+    margin-left: 80px;    
 }
     
     #header h1 {
-        display: inline-block;
-        
-       
+        display: inline-block;  
     }
 
     #header img {
         height: 80px;
         display: inline-block;
         margin-top: 20px;
-        background-color: white;
-        
+        background-color: white;   
     }
-
 
 #main_content {
     height:500px;
@@ -44,7 +39,6 @@
         border: 5px solid black;
         padding: 10px;
         margin: 5px;
-    
     }
 
     #main_content .blue_background {

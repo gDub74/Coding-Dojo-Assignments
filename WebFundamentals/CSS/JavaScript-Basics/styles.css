@@ -31,18 +31,17 @@ h1{
     #side_nav p{
         margin-bottom: 0px;
     }
-/* li .sub_menu{
-    margin-left: 10px;
-} */
 ul{
-    margin-top: 0px;
+    margin: 0px;
     padding-left: 20px;
     color: aqua;
 }
 ul li{
     color: white;
 }
-ul li .sub_menu{
+#sublist{
+    list-style-type: circle;
+    margin: 0px 0px 0px 15px;
     list-style-type: circle;
 }
 #main{

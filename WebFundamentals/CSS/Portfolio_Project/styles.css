@@ -1,0 +1,61 @@
+*{
+    border: solid 1px green;
+}
+
+#header {
+    width: 1024px;
+    height: 70px;
+    background-color: #cec8c8;
+}
+
+#name{
+    display: inline-block;
+    width: 506px
+}
+h1{
+    margin-left: 30px;
+}
+
+#title, h2{
+    display: inline-block; 
+    width: 509px; 
+}
+
+h2{
+    margin-left: 125px;
+}
+#about{
+    display: inline-block;
+    width: 555px;
+    height: 266px;
+    margin-left: 20px;
+}
+
+#content{
+    width: 1024px;
+    height:1024px;
+    padding: 25px;
+    background: rrgb(83, 83, 83); /* For browsers that do not support gradients */    
+    background: -webkit-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /*standard syntax */
+}
+
+#proflie_pic{
+    width: 400px;
+    height: 263px;
+    display: inline-block;
+    border: solid 5px whitesmoke;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#footer{
+    width: 1024px;
+    height: 70px;
+    background-color: #cec8c8;
+}

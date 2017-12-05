@@ -1,5 +1,9 @@
-*{
+/* *{
     border: solid 1px green;
+} */
+
+#wrapper{
+    width: 1024px;
 }
 
 #header {
@@ -10,29 +14,30 @@
 
 #name{
     display: inline-block;
-    width: 506px
+    width: 485px;
 }
 h1{
-    margin-left: 30px;
+    margin-left: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #title, h2{
     display: inline-block; 
-    width: 509px; 
+    width: 377px; 
 }
 
 h2{
     margin-left: 125px;
 }
-#about{
+#about_container{
     display: inline-block;
-    width: 555px;
-    height: 266px;
-    margin-left: 20px;
+    width: 522px;
+    height: 271px;
+    margin-left: 20px; background-color: whitesmoke;
 }
 
 #content{
-    width: 1024px;
+    width: 100%px;
     height:1024px;
     padding: 25px;
     background: rrgb(83, 83, 83); /* For browsers that do not support gradients */    
@@ -47,11 +52,35 @@ h2{
     height: 263px;
     display: inline-block;
     border: solid 5px whitesmoke;
+    vertical-align: top;
 }
 
 img{
     max-width: 100%;
     max-height: 100%;
+}
+
+.content_headers{
+    background-color: grey;
+    width: 100%
+}
+
+h3{
+    color: white;
+    margin: 0px;
+    background-color: grey;
+    height: 20px;
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+    margin: 0px;
+}
+
+.anchors{
+    margin-left: 10px;
+    color: black;
 }
 
 #footer{

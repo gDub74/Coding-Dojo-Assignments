@@ -6,10 +6,10 @@
     width: 1024px;
 }
 
-#header {
+#header, #footer{
     width: 1024px;
     height: 70px;
-    background-color: #cec8c8;
+    background-color: #e9e6ea;
 }
 
 #name{
@@ -40,24 +40,23 @@ h2{
     width: 100%px;
     height: 865px;
     padding: 25px;
-    background: rrgb(83, 83, 83); /* For browsers that do not support gradients */    
-    background: -webkit-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /* For Firefox 3.6 to 15 */
-    background: radial-gradient(rgb(83, 83, 83), rgb(38, 15, 59)); /*standard syntax */
+    background: rgb(109, 94, 117); /* For browsers that do not support gradients */    
+    background: -webkit-radial-gradient(rgb(109, 94, 117), rgb(38, 15, 59)); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(rgb(109, 94, 117), rgb(38, 15, 59)); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(rgb(109, 94, 117), rgb(38, 15, 59)); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(rgb(109, 94, 117), rgb(38, 15, 59)); /*standard syntax */
 }
 
 #proflie_pic{
     width: 400px;
     height: 263px;
     display: inline-block;
-    border: solid 5px whitesmoke;
+    border: solid 5px rgb(139, 137, 141);
     vertical-align: top;
 }
 
 img{
     max-width: 100%;
-    /* max-height: 100%; */
 }
 
 .content_headers{
@@ -68,9 +67,13 @@ img{
 h3, h4{
     color: white;
     margin: 0px;
-    background-color: grey;
     height: 20px;
     padding: 10px;
+    background: rgb(89, 89, 90); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(138, 136, 139), rgb(89, 89, 90), rgb(138, 136, 139)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(138, 136, 139), rgb(89, 89, 90), rgb(138, 136, 139)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(138, 136, 139), rgb(89, 89, 90), rgb(138, 136, 139)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(138, 136, 139), rgb(89, 89, 90), rgb(138, 136, 139)); /* Standard syntax */
 }
 
 p{
@@ -78,7 +81,7 @@ p{
     margin: 0px;
 }
 
-.anchors{
+#read_more{
     margin-left: 10px;
     color: black;
 }
@@ -92,16 +95,24 @@ p{
     width:308px;
     height: 570px;
     display: inline-block;
-    margin-right: 20px;
-    background-color: olivedrab; 
-    vertical-align: top; 
+    margin-right: 20px; 
+    vertical-align: top;
+    background: whitesmoke ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, whitesmoke , rgb(172, 151, 173)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, whitesmoke, rgb(172, 151, 173)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, whitesmoke, rgb(172, 151, 173)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, whitesmoke , rgb(172, 151, 173)); /* Standard syntax */ 
 }
 #sec_3{
     width:308px;
     height: 570px;
     display: inline-block;
-    background-color: olivedrab;
     vertical-align: top;
+    background: whitesmoke ; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, whitesmoke , rgb(172, 151, 173)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, whitesmoke, rgb(172, 151, 173)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, whitesmoke, rgb(172, 151, 173)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, whitesmoke , rgb(172, 151, 173)); /* Standard syntax */ 
 }
 
 .logos{
@@ -109,8 +120,19 @@ p{
     margin: 8px;
 }
 
+.link_buttons_long{
+    font-size: 15px;
+    background-color: rgb(65, 104, 65);
+    width: 115px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px grey;
+}
+
 .link_buttons{
-    color: whitesmoke;
     font-size: 15px;
     background-color: rgb(65, 104, 65);
     width: 75px;
@@ -119,11 +141,33 @@ p{
     margin: 0 auto;
     border-radius: 8px;
     text-align: center;
-    box-shadow: 3px 3px grey;
+    box-shadow: 2px 2px grey;
+}
+    .link_buttons a, .link_buttons_long a{
+        color: whitesmoke;
+    }
+
+.footer_text{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#footer{
-    width: 1024px;
-    height: 70px;
-    background-color: #cec8c8;
+.footer_images{
+    height: 20px;
+}
+
+.footer_links{
+    color:black;
+}
+
+#last_line{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.horizontal_allign_footer_logo{
+    display:inline-block;
+    margin: 5px 0px 0px 0px;
 }

@@ -16,6 +16,7 @@
     display: inline-block;
     width: 485px;
 }
+
 h1{
     margin-left: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,6 +30,7 @@ h1{
 h2{
     margin-left: 125px;
 }
+
 #about_container{
     display: inline-block;
     width: 540px;
@@ -87,8 +89,7 @@ p{
 }
 
 #portfolio_container{
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 #sec_1, #sec_2{
@@ -156,6 +157,7 @@ p{
 
 .footer_images{
     height: 20px;
+    margin-bottom: -7px;
 }
 
 .footer_links{
@@ -163,11 +165,10 @@ p{
 }
 
 #last_line{
-    margin: 0 auto;
+    margin-top: 10px;
     text-align: center;
 }
 
 .horizontal_allign_footer_logo{
     display:inline-block;
-    margin: 5px 0px 0px 0px;
 }

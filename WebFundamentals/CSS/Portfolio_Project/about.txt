@@ -1,0 +1,9 @@
+In this project I continued learning about how to set up the framing of the block elements of the page.
+With a div wrapper arround the whole page I learned that the nested elementas will conform to the set width of the wrapper.
+I also learned a lot about styling and organizing the style sheet so that it is easy to read and follows the flow of the page and 
+when possible I learned  howto style multiple elements at the same time by seperating the attribute names with a comma.
+I really enjoyed being able to look at the image of the project that we were to recreate and now undersand the orginizational
+markup of the page in a visual sense. The hardest thing to figure out were some inline images inbetween some link tags. I finally figured
+to use a negative margin to get the images to sit down lower and place them exactly where I wanted them to be. I look forward to the next challange!
+
+-Greg Weber 12/5/2017 

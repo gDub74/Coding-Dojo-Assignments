@@ -17,7 +17,7 @@ img{
 }
 
 #header{
-    height: 145px;
+    height: 135px;
     width: 100%;
 }
 
@@ -36,8 +36,7 @@ img{
 #top-right-container{
     display: inline-block;
     width: 540px;
-    text-align: right;
-    padding-top: 5px
+    padding: 5px;
 }
 
 #textsize{
@@ -46,7 +45,6 @@ img{
 }
 
 #searchbox{
-    background-color: grey;
     height: 100px;
 }
 
@@ -60,10 +58,139 @@ img{
     color: black;
 }
 
-a{
-    color: rgb(255, 196, 0)
+#tSizerBox a{
+    color: rgb(255, 196, 0);
+    font-size: 14px;
 }
 #tSizerBox{
-    margin-right:20px;
-    height; 32px;
+    margin-left: 320px;
+    height: 32px;
+    padding-top: 5px;
+}
+
+#search_go_wrapper{
+    margin: 0 auto;
+}
+
+#searchbox_container{
+    background-color: grey;
+    width: 250px;
+    height: 42px;
+    box-shadow: 3px 3px;
+    border-radius: 9px;
+    margin-left: 288px;
+    padding-top: 10px;
+}
+
+
+#searchbox{ 
+    height: 25px; 
+    margin-left: 30px;
+    border: solid 2px white;
+    border-style: inset;
+}
+
+
+#go{
+    color: white;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(29, 52, 116);
+    border: 2px solid rgb(212, 205, 205);
+    border-style: outset;
+}
+
+#navBar{
+    width: 860px;
+    margin: 0 auto;
+    height: 40px;
+    border: solid 1px rgb(2, 97, 121);
+    box-shadow: 3px 3px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+    #navBar li{
+        display: inline-block;
+        color: white;
+        font-size: 22px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 27px;
+    }
+
+#mainWrapperTop{
+    width: 100%;
+    padding:25px;
+}
+
+#Docs_list{ 
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    margin: 0 auto;
+    padding: 25px;
+}
+    #Docs_list a{
+        color:white;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+#Docs_list ul, #first_appearing p{
+    text-align: center;
+}
+
+
+    #Docs_list ul  li{
+        list-style-position: inside;
+        list-style-type: square;
+        color: rgb(255, 196, 0);
+    }
+
+#first_appearing{
+    color: white;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    width: 400px;
+    padding: 25px;
+}
+
+    #first_appearing .motto {
+        font-size: 20px;
+        color: rgb(255, 196, 0);
+        text-align: center;
+        line-height: 38px;
+        font-style: italic;
+    }
+
+h4{
+    text-align: center;
+    line-height: 38px;
+}
+
+#info-guide{
+    background-color: white;
+    width: 100%;
+    padding:50px;
+}
+
+.get-app{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 20px;
+}
+
+.bar{
+    height: 10px;
+    background-color: purple;
+}
+
+h3{
+    margin-top: 5px;
 }

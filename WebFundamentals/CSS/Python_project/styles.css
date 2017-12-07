@@ -82,14 +82,13 @@ img{
     padding-top: 10px;
 }
 
-
 #searchbox{ 
     height: 25px; 
     margin-left: 30px;
     border: solid 2px white;
     border-style: inset;
+    text-align: center;
 }
-
 
 #go{
     color: white;
@@ -104,31 +103,33 @@ img{
     width: 860px;
     margin: 0 auto;
     height: 40px;
-    border: solid 1px rgb(2, 97, 121);
+    background-color: #2c6394;
     box-shadow: 3px 3px;
     border-radius: 8px;
     padding: 10px;
     text-align: center;
 }
-
     #navBar li{
         display: inline-block;
-        color: white;
         font-size: 22px;
         height: 40px;
         line-height: 40px;
         padding: 0 27px;
     }
+    #navBar a{
+        color: white;
+        text-decoration: none;
+    }
 
 #mainWrapperTop{
     width: 100%;
-    padding:25px;
+    border-bottom: 3px solid black;
 }
 
 #Docs_list{ 
     vertical-align: top;
     display: inline-block;
-    width: 350px;
+    width: 250px;
     margin: 0 auto;
     padding: 25px;
 }
@@ -141,8 +142,6 @@ img{
 #Docs_list ul, #first_appearing p{
     text-align: center;
 }
-
-
     #Docs_list ul  li{
         list-style-position: inside;
         list-style-type: square;
@@ -154,10 +153,9 @@ img{
     display: inline-block;
     text-align: justify;
     vertical-align: top;
-    width: 400px;
+    width: 550px;
     padding: 25px;
 }
-
     #first_appearing .motto {
         font-size: 20px;
         color: rgb(255, 196, 0);
@@ -174,23 +172,35 @@ h4{
 #info-guide{
     background-color: white;
     width: 100%;
-    padding:50px;
+    padding:25px;
 }
 
 .get-app{
-    width: 40%;
+    width: 330px;
     display: inline-block;
     vertical-align: top;
-    margin: 20px auto;
+    margin-left: 73px;
     text-align: center;
     line-height: 20px;
 }
 
 .bar{
-    height: 10px;
-    background-color: purple;
+    height: 5px;
+    background-color: #3b82c0;
+    display: inline-block;
+    width: 380px;
+    margin-left: -35px;
 }
 
 h3{
     margin-top: 5px;
+}
+
+.lightblue{
+    color: rgb(53, 194, 230);
+}
+
+.get-app p span{
+    color: rgb(53, 194, 230);
+    font-size: 13px;
 }

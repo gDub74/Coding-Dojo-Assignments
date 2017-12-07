@@ -1,5 +1,5 @@
 *{
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     margin: 0px;
     padding: 0px;
 }
@@ -25,6 +25,7 @@ img{
     width: 400px;
     display: inline-block;
     vertical-align: top;
+    padding-top: 18px;
 }
     #logo img{
       
@@ -36,6 +37,7 @@ img{
     display: inline-block;
     width: 540px;
     text-align: right;
+    padding-top: 5px
 }
 
 #textsize{

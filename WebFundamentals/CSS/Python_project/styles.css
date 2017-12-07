@@ -58,15 +58,15 @@ img{
     color: black;
 }
 
-#tSizerBox a{
-    color: rgb(255, 196, 0);
-    font-size: 14px;
-}
 #tSizerBox{
     margin-left: 320px;
     height: 32px;
     padding-top: 5px;
 }
+    #tSizerBox a{
+        color: rgb(255, 196, 0);
+        font-size: 14px;
+    }
 
 #search_go_wrapper{
     margin: 0 auto;

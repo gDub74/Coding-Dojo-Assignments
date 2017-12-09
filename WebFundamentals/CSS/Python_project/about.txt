@@ -1,3 +1,13 @@
-This HTML/CSS project was a fun challenge! The is no Python coding in this project as the name might imply. Given only the Python logo and an image of what I was supposed to make this web page look like I was to recreate the 'look' using only HTML and CSS. The hardest part for me was the search bar area, getting it positioned went smoothly as I am getting comfortable using margins and padding to position block elements. It did take some research and digging on the internet however to discover the search input type and some properties associated with into make the search box function properly - namely the 'placeholder property.  Another challenge	was the footer. For some reason I had forgotten that <P> and <h> tags were black elements and so I was trying to place single <a> links inside three different <div> tags in line - which I learned is unnecessary. I will never forget about the different way to position block elements after these exercises and I look forward to discovering the next things I don't understand in my courses at Coding Dojo so I can get them under my belt and add more tools to my library!
+This HTML/CSS project was a fun challenge! There is no Python coding in this project as the name might imply. 
+Given only the Python logo and an image of what I was supposed to make this web page look like, I was to recreate 
+the 'look' using only HTML and CSS. The hardest part for me was the search bar area, getting it positioned went 
+smoothly as I am getting comfortable using margins and padding to position block elements. It did take some research 
+and digging on the internet however to discover the search input type and some properties associated with into make
+the search box function properly - namely the 'placeholder property. Also I learned that I can't change the border-style
+of an element until I actually give it a border! Another challenge was the footer. For some reason I had forgotten that 
+<P> and <h> tags were black elements and so I was trying to place single <a> links inside three different <div> tags in 
+line - which I learned is unnecessary. I will never forget about the different way to position block elements after these 
+exercises and I look forward to discovering the next things I don't understand in my courses at Coding Dojo so I can get 
+them under my belt and add more tools to my library!
 
 _Greg_Weber_12-8-17. 

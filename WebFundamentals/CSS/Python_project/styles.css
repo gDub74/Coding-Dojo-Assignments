@@ -53,6 +53,7 @@ img{
     color: white;
 }
 
+/* I realize that this class of "black" is only effecting one thjing on the page, how ever I decided to make it a class because I could imagine if this were a multi-page website or app that I would probably have other text that I would want to style black as well. */
 .black{
     line-height: 28x;
     color: black;
@@ -204,3 +205,37 @@ h3{
     color: rgb(53, 194, 230);
     font-size: 13px;
 }
+
+#footer{
+    height: 115px;
+    text-align: center;
+    background: #2c6394; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2c6394, #429be9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2c6394, #429be9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2c6394, #429be9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2c6394, #429be9); /* Standard syntax */
+}
+    #footer h6{
+        display: inline-block;
+        margin-top: 55px;
+
+    }
+    #footer a{
+        font-size: 19px;
+        color: rgb(157, 200, 249);
+        text-decoration: none;
+    }
+
+    #footer p{
+        margin-top: 20px;
+    }
+
+    #diversity{
+        padding-left:30px;
+        padding-right:30px; 
+    }
+
+    #copy{
+        color:  rgb(157, 200, 249);
+        font-size:10px;
+    }

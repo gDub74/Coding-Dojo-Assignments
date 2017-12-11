@@ -1,2 +1,2 @@
 Assignment 1 from Coding Dojo web fundamentals JavaScript section. 
-Learning how to declare different types of basic variables like strings and numbers.
+Learning how to declare different types of basic variables like strings,numbers and boolean.

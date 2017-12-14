@@ -11,8 +11,7 @@ function numsOnly(arr){
         }
     }
     console.log(newArr);
+    return(newArr);
 }
 
 numsOnly([1, 'apple', -3, 'orange', 0.5]);
-
-

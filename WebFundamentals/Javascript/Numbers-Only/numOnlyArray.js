@@ -3,8 +3,7 @@
 // newArray is [1, -3, 0.5]
 
 
-function numsOnly() {
-    var arr = [1, 'apple', -3, 'orange', 0.5];
+function numsOnly(arr){
     var newArr = [];
     for (var i= 0; i < arr.length; i++){
         if (typeof arr[i] === 'number'){
@@ -14,6 +13,6 @@ function numsOnly() {
     console.log(newArr);
 }
 
-numsOnly();
+numsOnly([1, 'apple', -3, 'orange', 0.5]);
 
 

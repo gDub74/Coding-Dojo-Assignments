@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+#wrapper{
+    width: 970px;
+    background-color: lightgreen;
+    text-align: center;
+    padding:25px;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    width:970px;
+    margin-bottom: 40px;
+    background-color: #a6b9ff;
+    border:1px solid black;
+    box-shadow: 2px 2px;
+}
+
+#puzzle{
+    width: 970px;
+}
+
+img{
+    width: 415px;
+    margin:0 auto;
+    display: block;
+    border:1px solid #251010;
+}

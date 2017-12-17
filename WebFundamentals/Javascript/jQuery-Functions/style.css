@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 970px;
+    padding: 25px;
+}
+
+.red{
+    color:red;
+}
+
+#addClass, #slideToggle, #append, #fadeIn, #html, #text{
+    width: 90%;
+    height: 110px;
+    padding: 15px;
+    border: 1px solid black;
+}
+    #addClass h1, #slideToggle h1, #append h1, #fadeIn h1, #html h1, #text h1 {
+        text-align: Center;
+        margin-bottom: 20px;
+    }
+    #addClass button, #slideToggle button, #append button, #fadeIn button, #html button, #text button{
+        display: inline-block;
+        width: 90px;
+        height: 25px;
+        margin-left: 25px;
+        box-shadow: 1px 1px;
+    }
+    #addClass p, #slideToggle p, #append p, #fadeIn p, #html p, #text p{
+        display: inline-block;
+        margin-left: 150px
+    }
+
+
+img{
+    width: 170px;
+    display: none;
+    vertical-align: top;
+    margin-left:135px;
+}

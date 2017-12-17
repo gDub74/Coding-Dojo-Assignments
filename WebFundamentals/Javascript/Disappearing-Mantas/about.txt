@@ -1,0 +1,2 @@
+Create a program with 8 identical images. When the user clicks on an image, it should disappear. 
+Add a button at the bottom to restore all the images once clicked.

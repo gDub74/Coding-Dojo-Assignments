@@ -1,0 +1,29 @@
+#tableDiv{
+    margin: 25px;
+    border: 1px solid black;
+    width:850px;
+}
+
+table{
+   width: 850px;
+}
+
+th, td{
+    text-align: right;
+    display: inline-block;
+    padding: 10px 55px;
+    
+}
+
+h2{
+    text-align: left;
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+}
+#inputForm{
+    width: 220px;
+    padding: 20px;
+    text-align: right;
+
+}
+

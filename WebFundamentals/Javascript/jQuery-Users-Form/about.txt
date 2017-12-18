@@ -1,0 +1,3 @@
+Create a blank table which has First and Last name, Email and Contact # 
+as table headings. Have a form at the bottom that will append items to 
+the table in corasponding rom/colom of the table.

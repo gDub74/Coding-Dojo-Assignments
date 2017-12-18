@@ -14,7 +14,7 @@ $('document').ready(function(){
             }
 
 
-            // replace the placeholders in the form.
+            // replace the placeholders in the form. - can't get this to work for some reason...
 
             // $('#first_name').attr('placeholder', 'First Name');
             // $('#last_name').attr('placeholder', 'Last Name');

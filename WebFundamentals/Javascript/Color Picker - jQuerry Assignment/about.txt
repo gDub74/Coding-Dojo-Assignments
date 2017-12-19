@@ -1,0 +1,7 @@
+*note - source code form the coding dojo platform.
+
+make code work so that:
+1. When you click the middle small box you change the color of the big box.
+2. Click the left or right box to change the color of its sibblings.
+3. Click the big box to change the color all boxes
+

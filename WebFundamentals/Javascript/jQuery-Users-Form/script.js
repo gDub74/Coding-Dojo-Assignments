@@ -5,7 +5,7 @@ $('document').ready(function(){
    
     
         $('form').submit(function(){
-           //grab ingor from a form submit and put into an array
+           //grab info from a form submit and put into an array
             var newRow = [$('#first_name').val(), $('#last_name').val(), $('#email').val(), $('#phone').val()];
             //cycle through array and place elements into their own <td> in a <tr> in a <tbody> in a <table>
             for (var i = 0; i<newRow.length; i++){

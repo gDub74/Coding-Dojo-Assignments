@@ -4,7 +4,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <Script>
         $(document).ready(function(){
-            for (var spriteId = 1; spriteId <= 5; spriteId++){
+            for (var spriteId = 1; spriteId <= 151; spriteId++){
                 $.get("https://pokeapi.co/media/sprites/pokemon/"+spriteId+".png", function(sprite){
                     $('#pokemons').append(sprite);
                 }, 'json' );

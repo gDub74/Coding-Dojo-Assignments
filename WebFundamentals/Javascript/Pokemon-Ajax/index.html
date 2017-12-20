@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <Script>
+        $(document).ready(function(){
+            for (var spriteId = 1; spriteId <= 5; spriteId++){
+                $.get("https://pokeapi.co/media/sprites/pokemon/"+spriteId+".png", function(sprite){
+                    $('#pokemons').append(sprite);
+                }, 'json' );
+            }
+        })
+    </Script>
+    <title>Pokemon</title>
+</head>
+<body>
+    <div id="pokemons">
+    </div>
+    
+</body>
+</html>

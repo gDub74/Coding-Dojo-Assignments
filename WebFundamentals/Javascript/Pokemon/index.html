@@ -5,16 +5,12 @@
     <Script>
         $(document).ready(function(){
             for (var spriteId = 1; spriteId <= 151; spriteId++){
-                $.get("http://pokeapi.co/media/sprites/pokemon/"+spriteId+".png", function(sprite){
-                    $('#pokemons').append(sprite);
-                }, 'json' );
+                $('body').append('<img src= "https://pokeapi.co/media/sprites/pokemon/'+spriteId+'.png">');  
             }
         })
     </Script>
     <title>Pokemon</title>
 </head>
-<body>
-    <div id="pokemons">
-    </div>    
+<body>   
 </body>
 </html>

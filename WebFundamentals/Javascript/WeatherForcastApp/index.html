@@ -7,7 +7,7 @@
             $('form').submit(function() {
                 var city = $('#city').val();
                 console.log(city);
-                $.get("http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&APPID=5088bea7f729cf744a54edf5b88792a2/", function(res) {
+                $.get("http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&APPID=5088bea7f729cf744a54edf5b88792a2", function(res) {
                     var html_string = `<h1>${res.name}</h1>
                                         <p>Tempertaure:${res.main.temp}</p>`;
                     $('#returnInfo').append(html_string);

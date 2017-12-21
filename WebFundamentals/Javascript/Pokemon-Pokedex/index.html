@@ -8,21 +8,25 @@
             for (var spriteId = 1; spriteId <= 151; spriteId++){ //display the pokemon images
                 $('#avatars').append('<img id="'+spriteId+'"src= "https://pokeapi.co/media/sprites/pokemon/'+spriteId+'.png">');  
             }
-            $('#avatars').on('click', function(){  //when user clicks on image...
+            $('img').on('click', function(){  //when user clicks on image...
                 var id = $(this).attr('id');//grab the id number off 'this' image we just clicked
                 console.log(id);
-                $.get("http://pokeapi.co/api/v2/pokemon/"+id+"", function(info){  //get 'this' pokemon info from the API and ...
-                var html_string = `
-                        <h2>${info.forms.name}</h2>
-                        <img src="https://pokeapi.co/media/sprites/pokemon/${id}".png>
+                $.get("https://pokeapi.co/api/v2/pokemon/"+id+"/", function(info){  //get 'this' pokemon info from the API and ...
+                
+                //now to build some content to add into our page...
+				var html_string = `<h2>${info.name}</h2> 
+                        <img src="https://pokeapi.co/media/sprites/pokemon/${id}.png">
                         <h4>Types:</h4>
-                        <ul><li>${info.types[0].type.name}<li>
+                        <ul><li>${info.types[0].type.name}<li></ul>
                         <h4>Height</h4>
                         <p>${info.height}</p>
                         <h4>weight</h4>
-                        <p>${info.weight}</p>
-                      `;      
-                $('#pokedex').replaceWith(html_string);
+                        <p>${info.weight}</p>`
+                      ;
+                console.log(html_string);
+
+                $('#pokedex').empty();//empty the pokedex if there is info there
+                $('#pokedex').append(html_string);//add the html we just built
                 }, 'json');
             });
         });

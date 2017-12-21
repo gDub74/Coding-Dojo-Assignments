@@ -14,7 +14,7 @@
                 $.get("https://pokeapi.co/api/v2/pokemon/"+id+"/", function(info){  //get 'this' pokemon info from the API and ...
                 
                 //now to build some content to add into our page...
-				var html_string = `<h2>${info.name}</h2> 
+			var html_string = `<h2>${info.name}</h2> 
                         <img src="https://pokeapi.co/media/sprites/pokemon/${id}.png">
                         <h4>Types:</h4>
                         <ul><li>${info.types[0].type.name}<li></ul>

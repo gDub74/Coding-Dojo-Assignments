@@ -1,0 +1,5 @@
+First project in learning about how to add media queries to CSS to apply actions
+to certian classes on a web page based on width. Also, using the idea of a column 
+grid system as a way to display the class info based on percentages of the over
+all width so that when we change screen sizes the ifno will display the way we design it
+to accordingly. 

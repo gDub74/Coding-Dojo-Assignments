@@ -22,7 +22,10 @@
     .med, .lrg{
         display: none;
     }
+<<<<<<< HEAD
     title:new{ text:Phone;}
+=======
+>>>>>>> cd0d6a77fc7134c593a97e052c9289acce1f3c72
 }
 
 @media only screen and (min-width: 481px){

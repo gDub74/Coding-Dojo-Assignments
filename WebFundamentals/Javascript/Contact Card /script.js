@@ -8,7 +8,6 @@ $('document').ready(function(){
         return false; 
     })
     
-     
     $(document).on("click", '#stuff', function(){
         $(this).children().toggle();
     })
@@ -21,4 +20,3 @@ $('document').ready(function(){
         $('#cardArea div').css('font-weight', "bold");
      })
 })
-

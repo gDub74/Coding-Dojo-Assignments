@@ -24,9 +24,7 @@
                         <p>${info.weight}</p>`
                       ;
                 console.log(html_string);
-
-                $('#pokedex').empty();//empty the pokedex if there is info there
-                $('#pokedex').append(html_string);//add the html we just built
+                $('#pokedex').html(html_string);//add the html we just built
                 }, 'json');
             });
         });

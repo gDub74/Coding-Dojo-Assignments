@@ -17,7 +17,6 @@ def characterChecker(my_list, subString):
     for element in my_list:
         if subString in element:   
             new_list.append(element)   #if it is then append the element to the new list
-
     print new_list
 
 

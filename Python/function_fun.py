@@ -33,13 +33,12 @@ print multiply(y,-2.5)
 
 def layered_multiples(arr):
     new_arr = []
-    num_append = 1
     for i in range (0, len(arr)):
         #create new sublist
         new_arr.append([])  
         #variable to hold current number in arr
         num = arr[i]
-        #append 1's to sublist
+        #append 1's to sublist (num/num will always equal to 1)
         while num > 0:
             new_arr[i].append(num/num)
             num -= 1

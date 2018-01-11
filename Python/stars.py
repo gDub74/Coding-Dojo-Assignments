@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Create a function called draw_stars() that takes a list of numbers and prints out *'s. If the list element is a string treat it as: Grab the first letter of string - make lower case - print it the number of times of the string length.
+=======
+#Create a function that takes a list of numbers and prints out *'s.
+>>>>>>> 6d58cda5a9d7e76e5e3425157ccf0817fc8d83ab
 
 
 def starPrinter(list):

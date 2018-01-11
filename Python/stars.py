@@ -1,4 +1,4 @@
-#Create a function called draw_stars() that takes a list of numbers and prints out *'s.
+#Create a function that takes a list of numbers and prints out *'s.
 
 
 def starPrinter(list):

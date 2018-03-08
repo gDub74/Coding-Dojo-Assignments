@@ -1,0 +1,51 @@
+#input_field{
+    padding: 20px;
+    margin-top: 48px;
+    margin-left: 30px;
+    width: 36%;
+    border-right: 1px solid black;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#results{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 36%;
+}
+
+input{
+    margin: 8px;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue
+}
+.on{
+    font-size: 25px;
+}
+.plane_text{
+    color: black;
+    font-size: 12px
+}
+
+#add_button{
+    background-color: rgb(185, 86, 86); 
+    box-shadow: 1px 1px;
+    color: white
+}
+
+#clear_button{
+    box-shadow: 1px 1px;
+    background-color: aquamarine;
+}

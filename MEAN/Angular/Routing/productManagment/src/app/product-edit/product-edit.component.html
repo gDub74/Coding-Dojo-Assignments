@@ -1,0 +1,8 @@
+<div>
+  <h3>Edit Product: {{ product[0].title }}</h3>
+  <form (submit)='onEditSubmit()' #form='ngForm'>
+    <input type='text' name='title' placeholder='{{ product.title }}' [(ngModel)]='product.title' #prodName='ngModel' required>
+    <input type='number' name='price' placeholder='{{ product.price }}' [(ngModel)]='product.price' #prodPrice='ngModel' required>
+    <button [disabled]='form.invalid' type='submit'>Add Product</button>
+  </form>
+</div>

@@ -1,0 +1,15 @@
+<fieldset>
+  <legend>PowerComponent
+  </legend>
+  <div id='appContainer'>
+    <input (ngModelChange)='onChange()' type="number" name="powerLevel" min='1' max='100' required [(ngModel)]='amount'>
+  </div>
+  <div id="childComponents">
+    <app-human [powerInput]='amount'></app-human>
+    <app-saiyan [powerInput]='amount'></app-saiyan>
+    <app-super-saiyan [powerInput]='amount'></app-super-saiyan>
+    <app-super-saiyan-two [powerInput]='amount'></app-super-saiyan-two>
+    <app-super-saiyan-three [powerInput]='amount'></app-super-saiyan-three>
+    <app-super-saiyan-four [powerInput]='amount'></app-super-saiyan-four>
+  </div>
+</fieldset>

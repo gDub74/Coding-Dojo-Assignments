@@ -1,0 +1,14 @@
+<h2>
+  {{ city?.name }}</h2>
+<div class="container">
+  <div id='info'>
+    <p>Humidity: {{ city?.humidity }}</p>
+    <p>Average Temp: {{ city?.avgTemp() }}</p>
+    <p>Temperature (high): {{ city?.tempHigh}}</p>
+    <p>Temperature (low): {{ city?.tempLow }}</p>
+    <p>Status: {{ city?.status }}</p>
+  </div>
+  <div id='img'>
+    <img src="assets/images/{{city.name}}.jpg" alt="">
+  </div>
+</div>

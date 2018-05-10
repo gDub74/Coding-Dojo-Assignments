@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+     <script 
+      src="https://code.jquery.com/jquery-3.2.1.min.js" 
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+      crossorigin="anonymous"></script>
+     
+      <script>
+          $( document ).ready(function() {
+                console.log( "ready!" );
+            });
+      </script>
+    <title>Dojo Query</title>
+</head>
+<body>
+        <div style="margin-top:30px" class="container">
+            <button id="clickMe">click me</button>
+            <button id="hoverBtn">hover over me</button>
+        </div>
+        <script>   
+            // (function(window){
+            //     function $Dojo(id){ 
+            //         const element = document.getElementById(id);
+            //         $Dojo.click = function(callback){
+            //                 element.addEventListener('click', callback) 
+            //             }
+
+            //         $Dojo.hover = function(callback, callback2){
+            //                 element.addEventListener('mouseover', callback);
+            //                 element.addEventListener('mouseout', callback2);
+            //             }
+
+            //         return $Dojo;
+            //     }
+            //     window.$Dojo = $Dojo
+            // })(window);   
+            
+            // //clickMe and hoverBtn are button id's 
+            // $Dojo('clickMe').click(function() { alert('button clicked!!') });
+            // $Dojo('hoverBtn').hover(
+            //             function() { console.log('hovering over button...') }, 
+            //             function() { console.log('..and now the mouse is not hovering.')}
+            //         );
+            
+            function $Dojo(id){ 
+                    this.element = document.getElementById(id);
+                    this.click = function(callback){
+                            this.element.addEventListener('click', callback) 
+                        }
+                    this.hover = function(callback, callback2){
+                            this.element.addEventListener('mouseover', callback);
+                            this.element.addEventListener('mouseout', callback2);
+                        }
+                    return this;
+                }  
+
+            const event1 = new $Dojo('clickMe');
+            // console.log(event1);
+            event1.click(function() { alert('button clicked!!') });
+            const event2 = new $Dojo('hoverBtn')
+            event2.hover(
+                function() { console.log('hovering over button...') }, 
+                function() { console.log('..and now the mouse is not hovering.')}
+            );
+            
+       </script>
+</body>
+</html>
+

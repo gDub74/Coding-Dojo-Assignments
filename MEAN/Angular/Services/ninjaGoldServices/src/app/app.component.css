@@ -1,0 +1,19 @@
+.building{
+  display: inline-block;
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+#log-component{
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  height: 110px;
+  overflow: scroll;
+  width: 83%;
+  text-align: left;
+}
+

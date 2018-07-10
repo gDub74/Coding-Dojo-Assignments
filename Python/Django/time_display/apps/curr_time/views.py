@@ -4,7 +4,7 @@ from datetime import datetime
 from pytz import timezone
 
 ptz = timezone('US/Pacific')
-local_time = datetime.now(ptz) - 7
+local_time = datetime.now(ptz)
 
 def index(request):
   context = {

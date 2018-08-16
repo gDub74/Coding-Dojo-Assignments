@@ -1,4 +1,3 @@
-
 $(document).ready(() => {
     console.log('document ready!')
     const socket = io.connect();
@@ -11,7 +10,7 @@ $(document).ready(() => {
     socket.on('prevMessages', data => {
         for (message of data.allMessages){
             console.log(message);
-            $('#all_messages').prepend(`<p class="${message.id}">${message.name}: ${message.message} </p>`)
+            $('#all_messages').append(`<p class="${message.id}">${message.name}: ${message.message} </p>`)
         }
     })
 
@@ -26,7 +25,7 @@ $(document).ready(() => {
     //listen for messages from server
     socket.on('addMessage', data => {
         console.log('got message from server...', data.name);
-        $('#all_messages').prepend(`<p class="${data.id}">${data.name}: ${data.message} </p>`)
+        $('#all_messages').append(`<p class="${data.id}"><span>${data.name}</span>: ${data.message} </p>`)
     });
 
 

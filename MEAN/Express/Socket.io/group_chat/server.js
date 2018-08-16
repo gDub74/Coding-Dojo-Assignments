@@ -17,7 +17,7 @@ const server = app.listen(port, ()=> console.log(`listening on ${port}`));
 
 const io = require('socket.io').listen(server); 
 
-const users = {}; //stores users by their id and saves the name associated withthat id
+const users = {}; //stores users by their id and saves the name associated with that id
 let allMessages = []; //for message objects[{id:socket.id, name:name, message:message}, {...}, {...}]
 io.sockets.on('connection', socket=> {
 

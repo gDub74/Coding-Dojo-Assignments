@@ -1,20 +1,22 @@
 body{
+    text-align: center;
+    margin: 0;
     background: url(/levi-price-35655-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-h3, h2{
-    color: white;
-    margin:15px;
+
+h2{
+    color: whitesmoke;
+    margin: 15px;
 }
 
-.container{
-    text-align: center;
-}
-#form_div, #all_messages{
-    width: 400px;
+
+#all_messages{
+    width: 65vw;
+    height: 75vh;
     padding: 10px;
     margin: 10px;
     overflow: scroll;
@@ -25,16 +27,24 @@ h3, h2{
     background-color : grey;
     color: white;
     opacity: 0.89;
-    box-shadow: 2px 2px black;
+    box-shadow: 5px 5px 20px black;
 }
-#all_messages{
-    text-align: justify;
-    height: 400px;
-    width: 350px;
-    
-}
+
 textarea{
+    width: 50vw;
     box-shadow: 2px 2px black;
     border: 1px solid dodgerblue;
     background-color: #800000;
+    color: whitesmoke;
+}
+
+.btn{
+    vertical-align: text-bottom;
+}
+
+p{
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 1.25em;
 }
